@@ -17,7 +17,7 @@ Here's the flow to submit changes to the repos :
 5. When you've finished with your beta testing and are ready to proceed, **create a Pull Request** (should be a new button below the Branch line on the main view of your fork). In your pull request, please **mention the issue you created above** (in the tool bar, the chat-like bubble with an arrow going out). You should also mention any other issues that your changes address if there are multipe.
 6. We will get notification of your PR, and one of our **open source repo managers will review the changes** and link it to your issue. The reviewing open source manager will either approve it or ask for changes.
 7. **If we asked for changes**, make them, commit/push them and **update the PR** with further comments.
-8. We will review it again, and if necessary go back to step 8. Eventually **it will be approved** (many times on the first submission).
+8. We will review it again, and if necessary go back to the previous step. Eventually **it will be approved** (many times on the first submission).
 9. Once approved, an **open source manager will merge the changes**, **generate a release** in the main github repo, and **update the [Indigo Plugin Store](https://www.indigodomo.com/pluginstore/)** with the new release.
 10. The open source manager will **close the issue(s) linked to in the PR** (this is why it's important to add links to those issues in your PR), mentioning the version number for the release.
 
