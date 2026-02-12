@@ -8,9 +8,9 @@ This is where you will find a curated set of open source Indigo plugins, created
 
 One of the major distinctions of the plugins hosted here are that they use a  more formal approach to contribution and release into the [Indigo Plugin Store](https://www.indigodomo.com/pluginstore/). While these plugins aren't an official part of Indigo and aren't (necessarily) tested/validated by Indigo Domotics, we have created a process through which these plugins go which will ensure a high level of quality, using a more rigorous process modeled on other open source projects.
 
-Here's the flow to submit changes to the repos :
+#### Here's the flow to submit changes to the repos:
 
-1. **Create an issue** in the repo (if there isn't already one there) that discusses the things that your contribution will address. You can skip this if your changes are addressing already present issues.
+1. **Create an issue** in the repo (if there isn't already one there) that discusses the things that your contribution will address. ***This is a crucial first step to flesh out your planned revisions and to help ensure your changes don't collide with changes planned/made by other developers working on the same repo.*** You can skip this if your changes are addressing already present issues.
 2. **Fork** (if you haven't already) the repo that you want to work on. If you already have a fork, on the Github page for your fork, click the Fetch & Merge button to make sure your fork is up to date.
 3. **Make the changes** as you would with any other git repo. **Commit and push** your changes up to your github fork. You can do this as often as you like since it's a nice to use github as an extra backup of your work.
 4. **Create beta releases** as necessary in your fork to send out to your beta testers. If you have the necessary environment/equipment/etc, you can skip the beta process if you like, though we  encourage it. Beta testing often reveals issues that are environment specific and which your environment may not replicate.
