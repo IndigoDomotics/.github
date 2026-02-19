@@ -11,12 +11,11 @@ There are a few fundamental points that your submission should include:
 Thank you for contributing to Indigo's codebase!
 
 #### Method Returns
-Do this:
 ```
+# Do this:
 return (A, B, C)  # explicit tuple
-```
-Instead of this:
-```
+
+# Instead of this:
 return A, B, C  # implicit tuple
 ```
 
@@ -48,11 +47,10 @@ Note: type hints are left out of this example for clarity.
 #### Use Descriptive Variable Names
 It's best to use names that clearly show their purpose where possible.
 
-Do this:
 ```
+# Do this:
 num_devices = 1
-```
-Instead of this:
-```
+
+# Instead of this:
 d = 1
 ```
