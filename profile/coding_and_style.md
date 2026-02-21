@@ -1,4 +1,4 @@
-### Coding and Style Guide for Open Source Plugins
+## Coding and Style Guide for Open Source Plugins
 The purpose of this document is to lay out coding and style guidance for contributors to use when developing and revising Indigo's codebase. Adhering to these styles 
 helps to keep Indigo's codebae uniform across the framework and help other contributors and reviewers to more easily understand your code. Be sure to also take a look at the [contributor's guidance](./README.md). 
 
@@ -10,7 +10,7 @@ There are a few fundamental points that your submission should include:
 
 Thank you for contributing to Indigo's codebase!
 
-#### Method Returns
+### Method Returns
 ```
 # Do this:
 return (A, B, C)  # explicit tuple
@@ -19,10 +19,10 @@ return (A, B, C)  # explicit tuple
 return A, B, C  # implicit tuple
 ```
 
-#### String Construction
+### String Construction
 Use f-strings whenever possible (feel free to update existing ones also if you want, but new ones should definitely be f-strings).
 
-#### Use Type Hints
+### Use Type Hints
 Add python type hints, especially to the method/function definition (skip self). You should even consider type-hinting things that appear obvious, because it can help to type check the entire project if your IDE supports it:
 ```
 def selectObject(self, valuesDict: indigo.Dict, typeId: str = "", devId: int = None) -> indigo.Dict:
@@ -30,7 +30,7 @@ def selectObject(self, valuesDict: indigo.Dict, typeId: str = "", devId: int = N
     my_val: float = 123.4
 ```
 
-#### Add Method Descriptions
+### Add Method Descriptions
 Use full Google-style docstrings, for instance:
 ```
 def calculate_average(numbers: list) -> float:
@@ -52,7 +52,7 @@ def calculate_average(numbers: list) -> float:
 ```
 You may find Sphinx-style docstrings in our codebase. We are switching those to Google-style over time.
 
-#### Use Descriptive Variable Names
+### Use Descriptive Variable Names
 It's best to use names that clearly show their purpose where possible.
 
 ```
