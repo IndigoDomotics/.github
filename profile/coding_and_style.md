@@ -30,19 +30,27 @@ def selectObject(self, valuesDict: indigo.Dict, typeId: str = "", devId: int = N
     my_val: float = 123.4
 ```
 
-#### Use Full Sphinx-style Docstrings
-Add method descriptions, for instance:
+#### Add Method Descriptions
+Use full Google-style docstrings, for instance:
 ```
-def addProperty(self, valuesDict, typeId="", devId=None): # noqa
-        """ Add a property to the selected object
-        
-        :param valuesDict: this is the Indigo dictionary containing the configured values
-        :param typeId: unused
-        :param devId: unused
-        :return: an updated valuesDict and potentially an errorsDict with any errors
-        """
+def calculate_average(numbers: list) -> float:
+    """Calculates the arithmetic mean of a list of numbers.
+
+    Args:
+        numbers (list[float]): A list of numeric values. The list must not be empty.
+
+    Returns:
+        float: The arithmetic mean of the provided numbers.
+
+    Raises:
+        ValueError: If `numbers` is empty.
+
+    Example:
+        >>> calculate_average([1.0, 2.0, 3.0])
+        2.0
+    """
 ```
-Note: type hints are left out of this example for clarity.
+You may find Sphinx-style docstrings in our codebase. We are switching those to Google-style over time.
 
 #### Use Descriptive Variable Names
 It's best to use names that clearly show their purpose where possible.
